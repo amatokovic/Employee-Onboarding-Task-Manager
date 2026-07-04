@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Menu?>
+<?import javafx.scene.control.MenuBar?>
+<?import javafx.scene.control.MenuItem?>
+
+<MenuBar prefWidth="900.0" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.example.taskmanager.controller.UserMenuController">
+   <menus>
+      <Menu mnemonicParsing="false" text="Profile">
+         <items>
+            <MenuItem mnemonicParsing="false" onAction="#myProfile" text="Show personal data" />
+            <MenuItem mnemonicParsing="false" onAction="#myDocuments" text="Add documents" />
+         </items>
+      </Menu>
+      <Menu mnemonicParsing="false" text="Task">
+         <items>
+            <MenuItem mnemonicParsing="false" onAction="#showTaskSearch" text="Search and filter" />
+         </items>
+      </Menu>
+      <Menu mnemonicParsing="false" text="Log out">
+         <items>
+            <MenuItem mnemonicParsing="false" onAction="#logOut" text="Log out" />
+         </items>
+      </Menu>
+   </menus>
+</MenuBar>
